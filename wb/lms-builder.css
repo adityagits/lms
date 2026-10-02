@@ -1,0 +1,9 @@
+/* LMS builder chrome tweaks */
+.lms-status { font-size: 12px; color: var(--ed-muted); margin: 0 6px; white-space: nowrap; }
+.lms-status.ok { color: #16a34a; }
+.lms-status.busy { color: #d97706; }
+.lms-status.err { color: #dc2626; font-weight: 600; }
+.tb-right a.btn, .tb-left a.btn { text-decoration: none; color: inherit; display: inline-block; }
+.lms-builder #left-tabs { grid-template-columns: repeat(3, 1fr); }
+.lms-builder #left-tabs button[hidden] { display: none; }
+@media (max-width: 960px) { .lms-status { display: none; } }
